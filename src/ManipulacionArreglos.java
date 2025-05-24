@@ -12,7 +12,7 @@ public class ManipulacionArreglos {
             try {
                 numeros[i] = Integer.parseInt(entrada[i]);
             } catch (NumberFormatException e) {
-                System.out.println("Error: Asegúrate de ingresar solo números enteros.");
+                System.out.println("Error: Asegurar de ingresar solo números enteros.");
                 return;
             }
         }
